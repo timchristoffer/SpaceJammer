@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../Media/Background.png');
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 35vh;
+    animation: scrollBackground 60s linear infinite; /* Använd en animation för att kontinuerligt rulla bakgrunden */
+}
+
+
+@keyframes scrollBackground {
+    from {
+        background-position: 0 0; /* Startposition för bakgrunden */
+    }
+    to {
+        background-position: 0 100%; /* Slutposition för bakgrunden */
+    }
+}
+
+.menuButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Lägg till denna rad för att centrera innehållet vertikalt */
+    padding: 20px; 
+    outline: 3px solid #a4318e;
+    background-color: #4837c7;
+    border-radius: 20px; /* Avrunda hörnen */
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Justera maximal bredd efter behov */
+    width: 80%; /* Justera bredden efter behov */
+    height: auto; /* Använd auto för att behålla proportionerna */
+}
+
+.menuButtons p{
+    color: #fff;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 30px;
+
+}
+
+.buttonLink {
+    position: relative;
+    text-decoration: none;
+    border: none; 
+    background: none; 
+    cursor: pointer;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+}
+
+.menuButtons img{
+    filter: invert(100%);
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Lägg till denna rad för att centrera innehållet vertikalt */
+    padding: 20px; 
+    outline: 3px solid #a4318e;
+    background-color: #4837c7;
+    border-radius: 20px; /* Avrunda hörnen */
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Justera maximal bredd efter behov */
+    width: 80%; /* Justera bredden efter behov */
+    height: auto; /* Använd auto för att behålla proportionerna */
+}
+
+.Container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-variation-settings: 'wght' 100, 'wdth' 85;
+    color: #fff;
+    animation: breathe 4000ms infinite forwards;
+}
+
+@keyframes breathe {
+    60% {
+      font-variation-settings: 'wght' 700, 'wdth' 400;
+    }
+    
+    100% {
+      font-variation-settings: 'wght' 100, 'wdth' 85;
+    }
+  }
+
+h1{
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.GameInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px; 
+    outline: 3px solid #a4318e;
+    background-color: #4837c7;
+    border-radius: 20px;
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    width: 80%;
+    height: auto;
+    overflow: hidden; /* Visa inte innehållet som går utanför boxen */
+    overflow-wrap: break-word; /* Bryt långa ord och strängar */
+}
+
+.GameInfo h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-variation-settings: 'wght' 100, 'wdth' 85;
+    color: #fff;
+    margin-bottom: 10px;
+    animation: breathe 4000ms infinite forwards;
+}
+
+.GameInfo p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.buttonLink p{
+    margin: 0;
+    opacity: 0;
+}
+
+/* Visa texten när knappen är i fokus */
+.buttonLink:focus p {
+    opacity: 1;
+    animation: slideIn 0.5s forwards;
+}
+
+/* Keyframe-animation för att skjuta ut texten från vänster till höger */
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.downloadButton {
+    background-color: #FFD700; /* Gul färg */
+    color: #000; /* Svart textfärg */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Övergångseffekt för bakgrundsfärg */
+}
+
+.downloadButton:hover {
+    background-color: #FFDF00; /* Ljusare gul färg vid hover */
+}
+
+.linkedinLogo {
+    width: 30px; /* Justera storleken efter behov */
+    filter: invert(100%); /* Ändra färgen till vit */
+    margin-top: 10px; /* Justera avståndet om det behövs */
+}
