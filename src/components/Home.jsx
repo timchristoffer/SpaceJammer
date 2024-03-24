@@ -36,6 +36,10 @@ const Home = () => {
                     <h2>Prepare for the Ultimate Space Showdown</h2>
                     <p>Are you ready to become the ultimate space jammer? Take control of your destiny, defy the odds, and carve your path to victory among the stars. The fate of the galaxy hangs in the balance—will you rise to the challenge or be lost to the void? The choice is yours in "Space Jammer: Galactic TUC Mayhem." Suit up, blast off, and let the cosmic carnage begin!</p>
             </div>
+                <footer>
+                <p>.</p>
+                </footer>
+            
         </>    
     );
 }

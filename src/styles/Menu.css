@@ -83,17 +83,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; /* Lägg till denna rad för att centrera innehållet vertikalt */
-    padding: 20px; 
+    flex-direction: column;
+    padding: 10px; 
     outline: 3px solid #a4318e;
-    background-color: rgba(72, 55, 199, 0.7); /* Använd rgba() för att ange bakgrundsfärg med en alfavärde för transparens */
-    border-radius: 20px; /* Avrunda hörnen */
+    background-color: rgba(72, 55, 199, 0.7); 
+    border-radius: 20px; 
     margin-top: 20px; 
     margin-left: auto;
     margin-right: auto;
-    max-width: 600px; /* Justera maximal bredd efter behov */
-    width: 80%; /* Justera bredden efter behov */
-    height: auto; /* Använd auto för att behålla proportionerna */
+    max-width: 600px;
+    width: 80%;
+    height: auto;
 }
 
 .Container h1{
@@ -136,7 +136,7 @@ p {
     flex-direction: column;
     padding: 20px; 
     outline: 3px solid #a4318e;
-    background-color: rgba(72, 55, 199, 0.7); /* Använd rgba() för att ange bakgrundsfärg med en alfavärde för transparens */
+    background-color: rgba(72, 55, 199, 0.7); 
     border-radius: 20px;
     margin-top: 20px; 
     margin-left: auto;
@@ -144,8 +144,8 @@ p {
     max-width: 600px;
     width: 80%;
     height: auto;
-    overflow: hidden; /* Visa inte innehållet som går utanför boxen */
-    overflow-wrap: break-word; /* Bryt långa ord och strängar */
+    overflow: hidden; 
+    overflow-wrap: break-word; 
 }
 
 .GameInfo h2 {
