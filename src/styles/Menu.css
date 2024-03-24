@@ -35,13 +35,13 @@ body {
     flex-direction: column; /* Lägg till denna rad för att centrera innehållet vertikalt */
     padding: 20px; 
     outline: 3px solid #a4318e;
-    background-color: #4837c7;
+    background-color: rgba(72, 55, 199, 0.7); /* Använd rgba() för att ange bakgrundsfärg med en alfavärde för transparens */
     border-radius: 20px; /* Avrunda hörnen */
     margin-top: 20px; 
     margin-left: auto;
     margin-right: auto;
     max-width: 600px; /* Justera maximal bredd efter behov */
-    width: 80%; /* Justera bredden efter behov */
+    width: 95%; /* Justera bredden efter behov */
     height: auto; /* Använd auto för att behålla proportionerna */
 }
 
@@ -60,8 +60,6 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    gap: 30px;
-
 }
 
 .buttonLink {
@@ -88,7 +86,7 @@ body {
     flex-direction: column; /* Lägg till denna rad för att centrera innehållet vertikalt */
     padding: 20px; 
     outline: 3px solid #a4318e;
-    background-color: #4837c7;
+    background-color: rgba(72, 55, 199, 0.7); /* Använd rgba() för att ange bakgrundsfärg med en alfavärde för transparens */
     border-radius: 20px; /* Avrunda hörnen */
     margin-top: 20px; 
     margin-left: auto;
@@ -138,7 +136,7 @@ p {
     flex-direction: column;
     padding: 20px; 
     outline: 3px solid #a4318e;
-    background-color: #4837c7;
+    background-color: rgba(72, 55, 199, 0.7); /* Använd rgba() för att ange bakgrundsfärg med en alfavärde för transparens */
     border-radius: 20px;
     margin-top: 20px; 
     margin-left: auto;
