@@ -7,6 +7,7 @@ const Home = () => {
     return (
         <>
             <div className='Container'>
+                <h1>GAME.</h1>
             </div>
             <div className="GameInfo">
                     <h2>Space Jammer: Galactic TUC Mayhem</h2>

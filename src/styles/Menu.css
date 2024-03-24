@@ -16,6 +16,7 @@ body {
     margin: 0;
     height: 35vh;
     animation: scrollBackground 60s linear infinite; /* Använd en animation för att kontinuerligt rulla bakgrunden */
+    overflow-y: auto;
 }
 
 

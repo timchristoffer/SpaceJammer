@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <>
             <div className='Container'>
-                <h1>Created by.</h1>
+                <h1>CREATED BY.</h1>
             </div>
             <div className="GameInfo">
                 <h2>Linus a.k.a CodeCleaner</h2>
@@ -46,6 +46,9 @@ const AboutUs = () => {
                     <img src={LinkedInLogo} alt="LinkedIn" className="linkedinLogo" />
                 </a>
             </div>
+            <footer>
+                <p>.</p>
+            </footer>
         </>
     );
 }
