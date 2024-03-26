@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SpaceJammer/static/css/main.b573279a.css",
-    "main.js": "/SpaceJammer/static/js/main.1ab4edf1.js",
+    "main.js": "/SpaceJammer/static/js/main.3913688d.js",
     "static/media/Background.png": "/SpaceJammer/static/media/Background.72bba223d6c9a6f8c8ab.png",
     "static/media/SpaceJammerMenuTitle.gif": "/SpaceJammer/static/media/SpaceJammerMenuTitle.7ca6090312292dd9ec33.gif",
     "index.html": "/SpaceJammer/index.html",
     "main.b573279a.css.map": "/SpaceJammer/static/css/main.b573279a.css.map",
-    "main.1ab4edf1.js.map": "/SpaceJammer/static/js/main.1ab4edf1.js.map"
+    "main.3913688d.js.map": "/SpaceJammer/static/js/main.3913688d.js.map"
   },
   "entrypoints": [
     "static/css/main.b573279a.css",
-    "static/js/main.1ab4edf1.js"
+    "static/js/main.3913688d.js"
   ]
 }
